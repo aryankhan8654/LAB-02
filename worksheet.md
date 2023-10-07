@@ -9,16 +9,16 @@ Name(s) and Login(s):
 1. Dennis Ritchie, the creator of the C programming language,
 was born on September 9th, 1941.  If he were still alive,
 how old would he be today?  Find out by running the `birthday`
-program on the appropriate inputs and enter your solution here.
+program on the appropriate inputs and enter your solution
 
-
+Hello, Dennis.  You are 22 years, 31 weeks, and 2 days old today
 
 
 2. Bjarne Stroustrup, the creator of the C++ programming
 language, the object-oriented extension of C, was born on
 December 30th, 1950.  How old is he today?
 
-
+Hello, Bjarne.  You are 22 years, 22 weeks, and 3 days old today
 
 
 3. Software testing often involves testing code with known
@@ -37,19 +37,19 @@ results you observe.
   size: 1 byte
   range: -128 to 127
 * `short int`
-  size:
-  range:
+  size:2 bytes
+  range:-32768 to 32767
 * `int`
-  size:
-  range:
+  size:4 bytes
+  range:-2147483647 to 2147483647
 * `long int`
-  size:
-  range:
+  size:4 bytes
+  range:-2147483648 to 2147483647
 * `float`
-  size:
+  size:4 bytes
   range: 7 digits of accuracy
 * `double`
-  size:
+  size:8 bytes
   range: 15 digits of accuracy
 
 
@@ -57,10 +57,15 @@ results you observe.
 the exchange amounts for the following inputs:
 
   a) $250.25
-
+ GBP: 112.61 
+ JPY: 14375
   b) $1,000.52
+  GBP: 450.23
+  JPY: 57472
 
   c) $968,410.12
+  GBP: 435784.55
+  JPY: 55627898
 
 
 
@@ -70,7 +75,7 @@ to use it to convert the US national debt
 (which as of 2020 was \$26,009,754,625,487)?
 Why or why not?
 
-
+not because the given national debt amount is too large and we cannot represent it by int 
 
 
 7. Mixed types
